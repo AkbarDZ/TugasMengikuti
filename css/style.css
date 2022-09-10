@@ -4,6 +4,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.Container {
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
 .Navbar {
     width: 100%;
     height: 60px;
@@ -11,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 9%;
+    background-color: white;
 }
 
 .Navbar p{
@@ -33,4 +41,55 @@ body {
 
 .Nav-Link a:hover {
     color: #dfe6e9;
+}
+
+.Text-Hero {
+    position: absolute;
+    left: 9%;
+    top: 130px;
+    line-height: 0px;
+}
+
+.Text-Hero p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.Text-Hero p:nth-child(2) {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Text-Hero p:nth-child(3) {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.Here {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 11px;
+}
+
+.Cv {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2f3640;
+    font-size: 11px;
+    color: white;
+    border: none;
+}
+
+.Model {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 450px;
 }
